@@ -1,0 +1,355 @@
+Mono path[0] = 'C:/Users/ALX/Documents/TUM/Designchallenge/hexmap/builds/Windows/HexGrid2022_Data/Managed'
+Mono config path = 'C:/Users/ALX/Documents/TUM/Designchallenge/hexmap/builds/Windows/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Initialize engine version: 2022.3.53f1 (df4e529d20d3)
+[Subsystems] Discovering subsystems at path C:/Users/ALX/Documents/TUM/Designchallenge/hexmap/builds/Windows/HexGrid2022_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e82)
+    Vendor:   NVIDIA
+    VRAM:     7989 MB
+    Driver:   32.0.15.6094
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.146 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 0.909100 ms
+The referenced script on this Behaviour (Game Object 'Main Camera') is missing!
+The referenced script on this Behaviour (Game Object 'Directional Light') is missing!
+The referenced script on this Behaviour (Game Object 'Hud') is missing!
+The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 4.214700 ms
+apply Elevation: False
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2727.
+Total: 1.410200 ms (FindLiveObjects: 0.123300 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.232100 ms  DeleteObjects: 0.017600 ms)
+
+Pressed HOST Button
+is Server: True
+is Client: True
+apply Elevation: True
+apply Elevation: False
+Owner: True
+Owner: True
+Owner: True
+Owner: True
+Owner: True
+Owner: True
+Owner: True
+Owner: True
+Owner: True
+Escape
+EXIT
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+[Netcode] NetworkObject #3 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #29 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #55 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #81 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #107 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #133 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #159 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #185 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #211 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #237 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #263 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #289 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #315 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #341 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #367 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #393 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #419 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #445 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #471 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #497 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #523 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #549 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #575 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #601 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #627 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #653 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #679 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #705 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #731 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #757 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #783 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #809 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #835 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #861 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #887 moved to the root because its parent NetworkObject #2 is destroyed
+[Netcode] NetworkObject #913 moved to the root because its parent NetworkObject #2 is destroyed
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+UnloadTime: 16.540800 ms
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 5942.
+Total: 3.423600 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.075200 ms MarkObjects: 2.878500 ms  DeleteObjects: 0.198200 ms)
+
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_MAIN]
+      Peak usage frame count: [0-1.0 KB]: 27681 frames, [1.0 KB-2.0 KB]: 1 frames, [16.0 KB-32.0 KB]: 4 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 79 frames, [256.0 KB-0.5 MB]: 1 frames, [0.5 MB-1.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 1 frames
+      Initial Block Size 4.0 MB
+      Current Block Size 4.0 MB
+      Peak Allocated Bytes 2.1 MB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 339 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 140.9 KB
+      Overflow Count 12
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 9.4 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 6
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 17.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 8.9 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 10.0 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 3.1 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 2093
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 2.2 MB
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 2523 frames, [32.0 MB-64.0 MB]: 25246 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 39.3 MB
+      Peak Large allocation bytes 8.0 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 27769 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 25.6 MB
+      Peak Large allocation bytes 16.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 2
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 2.2 MB
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [1.0 MB-2.0 MB]: 2178 frames, [4.0 MB-8.0 MB]: 25591 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 7.9 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 1535 frames, [2.0 KB-4.0 KB]: 1 frames, [1.0 MB-2.0 MB]: 26233 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.3 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 33
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 2.2 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 26229 frames, [1.0 MB-2.0 MB]: 1540 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 1.1 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [0.5 MB-1.0 MB]: 1535 frames, [1.0 MB-2.0 MB]: 1 frames, [2.0 MB-4.0 MB]: 26232 frames, [4.0 MB-8.0 MB]: 1 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 2
+      Peak Allocated memory 4.8 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 2.2 MB
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 27769 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 4.1 KB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [16.0 KB-32.0 KB]: 27769 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 24.9 KB
+      Peak Large allocation bytes 0 B

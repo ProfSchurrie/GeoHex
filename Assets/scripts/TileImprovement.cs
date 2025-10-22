@@ -1,0 +1,19 @@
+public enum TileImprovement {
+	None, 
+	SolarPark, 
+	Forrest, 
+	WindPark, 
+	Farm, 
+	CoalPowerPlant, 
+	GasPowerPlant, 
+	NuclearPowerPlant, 
+	HydroPowerPlant, 
+	ForrestAndVillage, 
+	Village, 
+	City, 
+	GreenCity, 
+	Mountain, 
+	ImprovedFarm, 
+	ImprovedSolarPark,
+	ImprovedWindPark
+}

@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/HUD/hud.uss?fileID=7433441132597879392&amp;guid=8d6fd9b21f2d5b84e8a1de7f3531dd92&amp;type=3#hud" />
+    <ui:VisualElement name="Rigth" style="flex-grow: 1; width: 20%; background-color: rgba(0, 0, 0, 0.42); align-self: flex-end;">
+        <ui:VisualElement name="Server-Host-Client" style="flex-direction: row; align-items: center; justify-content: center;">
+            <ui:Button text="Server" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ServerButton" />
+            <ui:Button text="Host" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HostButton" />
+            <ui:Button text="Client" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ClientButton" />
+        </ui:VisualElement>
+        <ui:VisualElement name="PathPanel" style="flex-direction: row; justify-content: space-between;">
+            <ui:RadioButtonGroup label="Paths" value="0" name="PathSelect" choices="River,Road" style="flex-direction: column;">
+                <ui:Toggle label="REMOVE" name="PathRemove" style="flex-direction: row-reverse;" />
+            </ui:RadioButtonGroup>
+            <ui:Toggle name="PathEnable" />
+        </ui:VisualElement>
+        <ui:VisualElement name="PropertyPanel" style="flex-direction: row; justify-content: space-between;">
+            <ui:DropdownField label="Property" choices="Elevation, Water Level, Urban, Plant" index="0" name="PropertySelect" style="flex-direction: column;">
+                <ui:SliderInt high-value="6" name="PropertyValue" />
+            </ui:DropdownField>
+            <ui:Toggle name="PropertyEnable" style="flex-direction: row; align-items: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="StructurePanel" style="flex-direction: row; justify-content: space-between;">
+            <ui:RadioButtonGroup label="Structures" value="-1" choices="REMOVE,Megaflora,Ziggurat,Castle" name="StructureSelect" style="flex-direction: column;" />
+            <ui:Toggle name="StructuresEnable" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ColorPanel" style="flex-direction: row; justify-content: space-between; -unity-font-style: normal;">
+            <ui:RadioButtonGroup label="Radio Button Group" value="-1" choices="Green, Blue, White, Yellow, DarkGreen" name="ColorGroup" style="flex-direction: column;" />
+            <ui:Toggle name="ColorEnable" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 0;">
+            <ui:Label tabindex="-1" text="Countries" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CountryLable" />
+            <ui:VisualElement name="CountryPanal" style="flex-grow: 0; flex-direction: row; justify-content: center;">
+                <ui:Button text="Cyan" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Cyan" style="width: auto;" />
+                <ui:Button text="Green" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Gray" style="flex-direction: row; width: auto; align-self: auto; justify-content: flex-start; transform-origin: center; position: relative; align-items: stretch;" />
+                <ui:Button text="Red" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Red" style="width: auto;" />
+                <ui:Button text="Green" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Green" style="width: auto; align-self: auto; position: relative;" />
+                <ui:Button text="Magenta" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Magenta" style="width: auto; align-self: auto; position: relative;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button text="Start Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartGame" style="bottom: auto; width: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

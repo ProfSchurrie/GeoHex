@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=39610dcdb9176f54a8432358b00f6d5f&amp;type=3#MainMenu" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center;">
+        <ui:Label tabindex="-1" text="Geohex" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="white-space: normal; align-items: stretch; justify-content: flex-start; padding-bottom: 10%; font-size: 50px;" />
+        <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" style="width: 30%; height: 20%;" />
+        <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" style="width: 30%; height: 20%;" />
+    </ui:VisualElement>
+</ui:UXML>

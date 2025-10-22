@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; background-color: rgba(0, 0, 0, 0.78);">
+        <ui:VisualElement style="align-items: stretch; justify-content: center; align-self: center; background-color: rgb(137, 137, 137); border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+            <ui:Label tabindex="-1" text="Select Mode" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Heading" style="align-self: center; font-size: 24px; -unity-font-style: bold; background-color: rgba(255, 255, 255, 0.42); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-right: 4px; padding-left: 4px; -unity-text-align: middle-center;" />
+            <ui:VisualElement style="flex-direction: row; justify-content: space-between;">
+                <ui:Button text="Host" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HostButton" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;" />
+                <ui:Button text="Client" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ClientButton" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

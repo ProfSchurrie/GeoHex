@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="background-color: rgb(183, 183, 183); align-self: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-left-color: rgb(149, 149, 149); border-right-color: rgb(149, 149, 149); border-top-color: rgb(149, 149, 149); border-bottom-color: rgb(149, 149, 149); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; height: 420px; width: 490px; justify-content: flex-start; align-items: stretch; top: 20%;">
+        <ui:VisualElement>
+            <ui:VisualElement style="flex-direction: column; -unity-text-align: middle-left; align-self: center; justify-content: space-around;">
+                <ui:Label tabindex="-1" text="Build" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-text-align: middle-center; font-size: 24px; -unity-font-style: bold; top: auto; width: 100%; justify-content: space-around;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; position: absolute; width: 100%; align-items: flex-end; justify-content: center;">
+                <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" style="width: 30px; height: 30px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row; width: 100%; justify-content: space-between; height: 100%;">
+            <ui:VisualElement name="Buttons" style="background-color: rgb(195, 195, 195); border-left-color: rgb(149, 149, 149); border-right-color: rgb(149, 149, 149); border-top-color: rgb(149, 149, 149); border-bottom-color: rgb(149, 149, 149); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; width: 40%; height: 100%;">
+                <ui:VisualElement name="FarmButtons" style="flex-grow: 0; flex-shrink: 0; height: 0;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="FarmButton" text="Farm" class="MouseOverEvent" style="display: flex; height: auto;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ImprovedFarmButton" text="Improved Farm" style="display: flex;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="CityButtons" style="flex-grow: 0; height: 0; flex-shrink: 0;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="VillageButton" text="Village" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="CityButton" text="City" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="GreenCityButton" text="Green City" style="display: flex;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="FactoryButtons" style="flex-grow: 0; height: 0; flex-shrink: 0;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="GasPowerPlantButton" text="Gas Power Plant" class="MouseOverEvent" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="CoalPowerPlantButton" text="Coal Power Plant" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="WindParkButton" text="Wind Park" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ImprovedWindParkButton" text="Improved Wind Park" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="SolarParkButton" text="Solar Park" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="ImprovedSolarParkButton" text="Improved Solar Park" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="HydroPlantButton" text="Hydro Plant" style="display: flex;" />
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="NuclearPlantButton" text="Nuclear Plant" style="display: flex; height: auto; max-height: none;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="width: 300px; border-left-color: rgb(31, 31, 31); border-right-color: rgb(31, 31, 31); border-top-color: rgb(31, 31, 31); border-bottom-color: rgb(31, 31, 31); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgb(41, 41, 41); justify-content: space-between; margin-left: 10px;">
+                <ui:Label tabindex="-1" text="NAME" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NameLabel" style="-unity-text-align: upper-center; color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 24px;" />
+                <ui:Label tabindex="-1" text="Cost:" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255);" />
+                <ui:Label tabindex="-1" text="100g" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CostLabel" style="color: rgb(255, 255, 255);" />
+                <ui:VisualElement name="Spacer" style="flex-grow: 1;" />
+                <ui:Label tabindex="-1" text="Effect:" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255);" />
+                <ui:Label tabindex="-1" text="Effects" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EffectsLabel" style="color: rgb(255, 255, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/HUD/hud.uss?fileID=7433441132597879392&amp;guid=8d6fd9b21f2d5b84e8a1de7f3531dd92&amp;type=3#hud" />
+    <ui:VisualElement name="Rigth" style="width: 20%; background-color: rgba(0, 0, 0, 0.42); align-self: flex-end; height: 95%; top: 5%;">
+        <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: flex-end;">
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" style="align-self: center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="StructurePanel" style="flex-direction: row; justify-content: center; align-items: center; height: 100%;">
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" vertical-page-size="-1" mouse-wheel-scroll-size="500" style="width: auto; height: 100%; border-left-color: rgb(149, 149, 149); border-right-color: rgb(149, 149, 149); border-top-color: rgb(149, 149, 149); border-bottom-color: rgb(149, 149, 149); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; background-color: rgb(183, 183, 183);">
+                <ui:RadioButtonGroup label="Structures" value="-1" choices="REMOVE,Windpark,SolarField,Farm,Town,Village,Coal,Gas,Nuclear" name="StructureSelect" style="flex-direction: column;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement style="width: 100%; height: 200px; background-color: rgb(183, 183, 183); border-left-color: rgb(149, 149, 149); border-right-color: rgb(149, 149, 149); border-top-color: rgb(149, 149, 149); border-bottom-color: rgb(149, 149, 149); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">
+            <ui:Label tabindex="-1" text="Cost:" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:Label tabindex="-1" text="[COST]" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CostLabel" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

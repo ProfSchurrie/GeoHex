@@ -1,0 +1,13 @@
+.WindowButton:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.WindowButton {
+}
+
+.WindowButton:focus {
+    background-color: rgb(171, 171, 171);
+}
+
+.unity-button {
+}
